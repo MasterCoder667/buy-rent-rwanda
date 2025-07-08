@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Property Details - Property In Rwanda</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <script src="https://kit.fontawesome.com/b640aafbb1.js" crossorigin="anonymous"></script>
+
+
+  <meta name="description" content="Find or list homes for sale and rent in Rwanda. Search houses, apartments, short stays, and more on RwandaProperties.">
+  <meta name="keywords" content="Rwanda real estate, houses for rent Rwanda, Kigali apartments, properties for sale Rwanda">
+  <meta name="author" content="RwandaProperties">
+
+
+  
+</head>
+<body>
+
+  <div class="header-bar">
+        <div class="header-section logo-side">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo" class="header-logo">
+            </a>
+        </div>
+        <div class="header-section title-side">
+            <div class="header-container">
+                <i class="fa-solid fa-house"></i>
+                <h1>RwandaProperties</h1>
+            </div>
+        </div>
+        <div class="header-section spacer-side"></div>
+    </div>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="forrent.html">For rent</a></li>
+      <li><a href="shortstay.html">Short Stay</a></li>
+      <li><a href="forsale.html">For sale</a></li>
+      <li><a href="auctions.html">Auctions</a></li>
+      <li><a href="advertisers.html">Advertisers</a></li>
+      <li><a href="requests.html">Requests</a></li>
+      <li><a href="contactus.html">Contact us</a></li>
+    </ul>
+  </nav>
+
+  <div class="house-detail-container">
+    <div class="gallery-container">
+      <div class="gallery-slider" id="gallery-slider"></div>
+      
+      <div class="gallery-buttons">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+      <div class="gallery-thumbnails" id="gallery-thumbnails"></div>
+    </div>
+
+    <div class="house-info">
+      <h2 id="property-title"></h2>
+      <table class="house-info-table">
+        <tr><th>Price:</th><td id="property-price"></td></tr>
+        <tr><th>Location:</th><td id="property-location"></td></tr>
+        <tr><th>Advert Type:</th><td id="property-advertType"></td></tr>
+        <tr><th>Property Type:</th><td id="property-type"></td></tr>
+        <tr><th>Bedrooms:</th><td id="property-bedrooms"></td></tr>
+        <tr><th>Bathrooms:</th><td id="property-bathrooms"></td></tr>
+      </table>
+
+      <div class="house-description">
+        <h3>Description</h3>
+        <p id="property-description"></p>
+      </div>
+
+      <a href="https://wa.me/250788123456?text=Hello!%20I'm%20interested%20in%20the%20property%20you%20listed%20on%20RwandaProperties." 
+        class="contact-agent-btn" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i> Contact Agent on WhatsApp
+      </a>
+
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+"
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const propertyId = parseInt(urlParams.get('id'));
+
+    const property = properties.find(p => p.id === propertyId);
+
+    
+
+    if (property) {
+      document.getElementById("property-title").textContent = property.title;
+      document.getElementById("property-price").textContent = property.price;
+      document.getElementById("property-location").textContent = property.location;
+      document.getElementById("property-advertType").textContent = property.advertType;
+      document.getElementById("property-type").textContent = property.type;
+      document.getElementById("property-bedrooms").textContent = property.bedrooms;
+      document.getElementById("property-bathrooms").textContent = property.bathrooms;
+      const descriptionEl = document.getElementById("property-description");
+          if (typeof property.description === "string") {
+            const sentences = property.description
+              .split(/[.,;]+/)
+              .map(s => s.trim())
+              .filter(s => s.length > 0);
+
+            descriptionEl.innerHTML = `
+              <ul class="property-features">
+                ${sentences.map(line => `<li>${line}</li>`).join("")}
+              </ul>
+            `;
+          } else {
+            descriptionEl.textContent = "No description available.";
+      }
+
+      const slider = document.getElementById("gallery-slider");
+      const thumbs = document.getElementById("gallery-thumbnails");
+
+      property.images.forEach((img, index) => {
+        const slide = document.createElement("img");
+        slide.src = img;
+        slide.alt = property.title;
+        slider.appendChild(slide);
+
+        const thumb = document.createElement("img");
+        thumb.src = img;
+        thumb.dataset.index = index;
+        thumbs.appendChild(thumb);
+      });
+
+      let currentIndex = 0;
+      const slides = slider.querySelectorAll("img");
+      const thumbnails = thumbs.querySelectorAll("img");
+
+      function updateSlider() {
+        slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+        thumbnails.forEach(t => t.classList.remove("active"));
+        thumbnails[currentIndex].classList.add("active");
+      }
+
+      document.querySelector(".next").addEventListener("click", () => {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateSlider();
+      });
+
+      document.querySelector(".prev").addEventListener("click", () => {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        updateSlider();
+      });
+
+      thumbnails.forEach(t => {
+        t.addEventListener("click", () => {
+          currentIndex = parseInt(t.dataset.index);
+          updateSlider();
+        });
+      });
+
+      updateSlider();
+    } else {
+      document.querySelector(".house-detail-container").innerHTML = "<p style='text-align:center;'>Property not found.</p>";
+    }
+
+    
+
+    
+  </script>
+
+
+  <script>
+    function showContactForm() {
+      const formSection = document.getElementById('contact-form-section');
+      if (formSection) {
+        formSection.style.display = 'block';
+        formSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+
+
+
+
+  <footer class="site-footer">
+    <div class="footer-content">
+        <p>&copy; 2025 RwandaProperties. All rights reserved.</p>
+        <p>📍 Kigali, Rwanda | 📞 +44 7379 530173 | ✉️ contact@contact.rwandaproperties@gmail.com</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a> |
+            <a href="forrent.html">For Rent</a> |
+            <a href="shortstay.html">Short Stay</a> |
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+</html>

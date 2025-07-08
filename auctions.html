@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Auctions - Property In Rwanda</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <script src="https://kit.fontawesome.com/b640aafbb1.js" crossorigin="anonymous"></script>
+
+  <meta name="description" content="Find or list homes for sale and rent in Rwanda. Search houses, apartments, short stays, and more on RwandaProperties.">
+  <meta name="keywords" content="Rwanda real estate, houses for rent Rwanda, Kigali apartments, properties for sale Rwanda">
+  <meta name="author" content="RwandaProperties">
+  
+</head>
+<body>
+
+
+  <div class="header-bar">
+        <div class="header-section logo-side">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo" class="header-logo">
+            </a>
+        </div>
+        <div class="header-section title-side">
+            <div class="header-container">
+                <i class="fa-solid fa-house"></i>
+                <h1>RwandaProperties</h1>
+            </div>
+        </div>
+        <div class="header-section spacer-side"></div>
+    </div>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="forrent.html">For rent</a></li>
+      <li><a href="shortstay.html">Short Stay</a></li>
+      <li><a href="forsale.html">For sale</a></li>
+      <li><a href="auctions.html">Auctions</a></li>
+      <li><a href="advertisers.html">Advertisers</a></li>
+      <li><a href="requests.html">Requests</a></li>
+      <li><a href="contactus.html">Contact us</a></li>
+    </ul>
+  </nav>
+
+  <main style="text-align: center; padding: 60px 20px;">
+    <h2>Upcoming Property Auctions</h2>
+    <p>We currently do not have any active auctions listed. Please check back later or <a href="contactus.html">contact us</a> to get auction alerts by email.</p>
+  </main>
+
+  <script>
+        const currentPage = location.pathname.split("/").pop();
+        document.querySelectorAll(".navbar a").forEach(link => {
+        if (link.getAttribute("href") === currentPage) {
+            link.classList.add("active");
+        }
+    });
+    </script>
+
+    <footer class="site-footer">
+    <div class="footer-content">
+        <p>&copy; 2025 RwandaProperties. All rights reserved.</p>
+        <p>📍 Kigali, Rwanda | 📞 +44 7379 530173 | ✉️ contact@contact.rwandaproperties@gmail.com</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a> |
+            <a href="forrent.html">For Rent</a> |
+            <a href="shortstay.html">Short Stay</a> |
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </div>
+    </footer>
+
+
+
+</body>
+</html>
