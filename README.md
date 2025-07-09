@@ -19,6 +19,6 @@ A clean and responsive real estate website for showcasing properties for rent or
 *(Insert a few screenshots here)*
 
 ## 📫 Contact
-Created by [Your Name]  
-Email: yourname@gmail.com  
+Created by Muheto Niyonemera  
+Email: muheto.niyonemera@gmail.com 
 Website: *Coming soon*
