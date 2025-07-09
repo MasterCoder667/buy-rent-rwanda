@@ -1,4 +1,4 @@
-# Rwanda Properties 🌍🏠
+![image](https://github.com/user-attachments/assets/16ebf274-90cd-4912-b51f-14bb3db9f532)# Rwanda Properties 🌍🏠
 
 A clean and responsive real estate website for showcasing properties for rent or sale in Rwanda.
 
@@ -16,9 +16,9 @@ A clean and responsive real estate website for showcasing properties for rent or
 - Font Awesome Icons
 
 ## 📸 Screenshots
-![image](https://github.com/user-attachments/assets/7035ce6d-fd48-43ad-b1fa-34ceb9ed0875)
-![image](https://github.com/user-attachments/assets/75ae70c3-e42a-49bc-b0f7-dd41e635089b)
-![image](https://github.com/user-attachments/assets/bd85c4cf-e61f-4788-a650-a53d60cf2d60)
+
+<img src="https://github.com/user-attachments/assets/fad3bb43-c311-444d-9ba4-e17cff9beb4b" alt="showcase1" width="600">
+
 
 
 
