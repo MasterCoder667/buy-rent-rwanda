@@ -10,7 +10,7 @@ const properties = [
     bedrooms: 3,
     bathrooms: 2,
     description: "🏡 Spacious 3-bedroom house with modern amenities, 🔐 Secure parking for up to 3 cars, 🌄 Beautiful Views. 👨‍👩‍👧‍👦 Ideal for families seeking a quiet neighborhood in Kicukiro. 🍳 Joyous kitchen and 💖 lovely living room. 📶 Wifi included.",
-    image : "PHOTO-2024-04-02-21-17-41 (6).jpg",
+    image : "PHOTO-2024-04-02-21-17-41 (1).jpg",
     images: [
       "PHOTO-2024-04-02-21-17-41 (6).jpg",
       "PHOTO-2024-04-02-21-17-41 (5).jpg",
