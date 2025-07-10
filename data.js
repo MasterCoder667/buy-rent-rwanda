@@ -30,14 +30,14 @@ const properties = [
     bedrooms: 4,
     bathrooms: 3,
     description: "🏠 New house in Kibagabaga available for sale. 📍 Great residential location with nice views of Nyarutarama. 🛏️ Features 4 bedrooms, 🛁 3 bathrooms, 🛋️ A spacious living and dining area with natural light, 🌿 A small garden, 🧒 Kids' play area,🚗 1-car parking. 🧑‍💻 Includes a study room. 🌐 Fiber optic internet.",
-    image: "images/KIBA new house.png",
+    image: "KIBA new house.png",
     images: [
-      "images/KIBA new house.png",
-      "images/kiba house 5.png",
-      "images/kiba house 3.png",
-      "images/Kibagabaga New House.png",
-      "images/kiba new house2.png",
-      "images/kiba house 4.png"
+      "KIBA new house.png",
+      "kiba house 5.png",
+      "kiba house 3.png",
+      "Kibagabaga New House.png",
+      "kiba new house2.png",
+      "kiba house 4.png"
     ],
     link: "house-details.html?id=2"
   },
@@ -52,14 +52,14 @@ const properties = [
     bedrooms: 2,
     bathrooms: 2,
     description: "Beautiful family home with spacious garden, 4 bedrooms, and 3 bathrooms. Located in the upscale neighborhood of Nyarutarama.",
-    image : "images/gishushu 1.png",
+    image : "gishushu 1.png",
     images: [
-      "images/gishushu 1.png",
-      "images/gishu 4.png",
-      "images/gishu 5.png",
-      "images/gishu 6.png",
-      "images/gishu 3.png",
-      "images/gishushu 2.png"
+      "gishushu 1.png",
+      "gishu 4.png",
+      "gishu 5.png",
+      "gishu 6.png",
+      "gishu 3.png",
+      "gishushu 2.png"
     ],
     link: "house-details.html?id=3"
   },
@@ -96,16 +96,16 @@ const properties = [
     type: "House",
     bedrooms: 4,
     bathrooms: 3,
-    image: "images/buga A.png",
+    image: "buga A.png",
     images: [
-      "images/buga A.png",
-      "images/buga B.png",
-      "images/buga C.png",
-      "images/buga D.png",
-      "images/buga E.png",
-      "images/buga F.png",
-      "images/buga G.png",
-      "images/buga H.png"
+      "buga A.png",
+      "buga B.png",
+      "buga C.png",
+      "buga D.png",
+      "buga E.png",
+      "buga F.png",
+      "buga G.png",
+      "buga H.png"
     ],
     description: `🏠 Discover your dream home in beautiful Bugesera, 🌅 Modern architecture blended with traditional Rwandan design, 🛋️ Spacious living areas filled with natural light, 📍 Prime location near tarmac road, close to Nyamata town, 🛏️ 4 bedrooms, 3 bathrooms, 🛋️ Cozy love seats and stylish outdoor furniture, 📺 85-inch TV + 32-inch TV included, 🛏️ Three queen-size beds with nightstands, 🪴 Indoor & outdoor plants for enhanced aesthetic, 💧 Water harvesting tank for sustainability, 🚪 Fully furnished and move-in ready`,
     whatsapp: "250788987654",
@@ -121,14 +121,14 @@ const properties = [
     type: "Apartment",
     bedrooms: 2,
     bathrooms: 2,
-    image: "images/kac A.png",
+    image: "kac A.png",
     images: [
-      "images/kac A.png",
-      "images/KACU B.png",
-      "images/KACU C.png",
-      "images/KACU D.png",
-      "images/KACU E.png",
-      "images/KACU F.png"
+      "kac A.png",
+      "KACU B.png",
+      "KACU C.png",
+      "KACU D.png",
+      "KACU E.png",
+      "KACU F.png"
     ],
     description: `🏢 Modern 2-bedroom apartment in Kacyiru, 🛋️ Spacious and bright living room, 🍽️ Dining area for meals and gatherings, 🛏️ 2 well-furnished bedrooms, 🚿 2 clean bathrooms with modern fittings, 🧳 Store room for extra storage, 🍳 Fully equipped indoor kitchen, 🌇 Balcony with a scenic view, 🛣️ Located on a tarmac road for easy access, 🌐 High-speed Wi-Fi access, 🌿 Small private garden, 🚗 Private parking space, ✨ Stylish and clean interiors, 🛋️ Fully furnished with all essentials, 🏘️ Quiet and friendly neighborhood`,
     whatsapp: "250788654321",
