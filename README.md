@@ -26,4 +26,4 @@ A clean and responsive real estate website for showcasing properties for rent or
 ## 📫 Contact
 Created by Muheto Niyonemera  
 Email: muheto.niyonemera@gmail.com 
-Website: *Coming soon*
+Website: https://www.rwandaproperties.org
