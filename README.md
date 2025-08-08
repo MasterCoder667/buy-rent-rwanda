@@ -1,4 +1,4 @@
-# Rwanda Properties 🌍🏠
+# BuyRentRwanda.com 🌍🏠
 
 A clean and responsive real estate website for showcasing properties for rent or sale in Rwanda.
 
