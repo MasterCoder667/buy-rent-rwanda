@@ -12,16 +12,17 @@ A clean and responsive real estate website for showcasing properties for rent or
 
 ## 🚀 Technologies
 - HTML5, CSS3, JavaScript (Vanilla)
-- Google Maps API
 - Font Awesome Icons
 
 ## 📸 Screenshots
 <p align="center">
-  <img width="308" height="864" alt="image" src="https://github.com/user-attachments/assets/65fe0289-b784-499f-a0be-f1b7f8cd8159" />
+  <img width="500" height="951" alt="image" src="https://github.com/user-attachments/assets/94b465de-6be4-4300-a421-dd16002dc538" />
 
 
 
-  <img src="https://github.com/user-attachments/assets/b5b571f8-9e2c-4a58-bc61-5249cba3a245" alt="showcase2" width="500">
+
+  <img width="500" height="945" alt="image" src="https://github.com/user-attachments/assets/683c0e03-cc45-4907-8a6f-7fff66eab2a0" />
+
 </p>
 
 
