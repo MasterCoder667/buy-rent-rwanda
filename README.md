@@ -1,4 +1,4 @@
-# BuyRentRwanda.com 🌍🏠
+<img width="1891" height="948" alt="image" src="https://github.com/user-attachments/assets/9c30b61c-cbd8-418b-b20f-36ac1fe69d25" /># BuyRentRwanda.com 🌍🏠
 
 A clean and responsive real estate website for showcasing properties for rent or sale in Rwanda.
 
@@ -17,7 +17,8 @@ A clean and responsive real estate website for showcasing properties for rent or
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fad3bb43-c311-444d-9ba4-e17cff9beb4b" alt="Website Screenshot" width="500">
+  <img width="1891" height="948" alt="image" src="https://github.com/user-attachments/assets/86b1182b-5720-44f8-9d32-351f617b7306" width="500"/>
+
   <img src="https://github.com/user-attachments/assets/b5b571f8-9e2c-4a58-bc61-5249cba3a245" alt="showcase2" width="500">
 </p>
 
