@@ -17,7 +17,8 @@ A clean and responsive real estate website for showcasing properties for rent or
 
 ## 📸 Screenshots
 <p align="center">
-  <img width="1891" height="948" alt="image" src="https://github.com/user-attachments/assets/86b1182b-5720-44f8-9d32-351f617b7306" width="500"/>
+  <img width="308" height="500" alt="image" src="https://github.com/user-attachments/assets/552796f1-572f-4b90-8232-a0f7e06f2889" />
+
 
   <img src="https://github.com/user-attachments/assets/b5b571f8-9e2c-4a58-bc61-5249cba3a245" alt="showcase2" width="500">
 </p>
