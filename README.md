@@ -1,33 +1,34 @@
-<img width="1891" height="948" alt="image" src="https://github.com/user-attachments/assets/9c30b61c-cbd8-418b-b20f-36ac1fe69d25" /># BuyRentRwanda.com 🌍🏠
+BuyRentRwanda.com 🌍🏠
 
-A clean and responsive real estate website for showcasing properties for rent or sale in Rwanda.
+A modern, responsive real estate platform showcasing properties for rent and sale across Rwanda.
 
-## 🌟 Features
-- 🔍 Search and filter by location, type, rooms, and price
-- 📷 Image gallery slider with thumbnails
-- 🗺️ Interactive map for house locations
-- 📱 Fully responsive (Mobile & Tablet Ready)
-- 📞 WhatsApp integration for contacting agents
-- 📂 12 sample properties (6 for sale, 6 for rent)
+🌟 Key Features
 
-## 🚀 Technologies
-- HTML5, CSS3, JavaScript (Vanilla)
-- Font Awesome Icons
+🔍 Advanced Search & Filters: Search by location, property type, number of rooms, and price.
 
-## 📸 Screenshots
-<p align="center">
-  <img width="650" height="951" alt="image" src="https://github.com/user-attachments/assets/94b465de-6be4-4300-a421-dd16002dc538" />
+📷 Image Gallery Slider: Browse property images with thumbnails.
 
+🗺️ Interactive Map: View exact property locations.
 
+📱 Fully Responsive: Optimized for mobile, tablet, and desktop.
 
+📞 WhatsApp Integration: Directly contact property agents.
 
-  <img width="650" height="945" alt="image" src="https://github.com/user-attachments/assets/683c0e03-cc45-4907-8a6f-7fff66eab2a0" />
+🏘️ Sample Listings: 12 example properties (6 for sale, 6 for rent).
 
-</p>
+🚀 Technologies Used
 
+Frontend: HTML5, CSS3, JavaScript (Vanilla)
 
+Icons & UI: Font Awesome
 
-## 📫 Contact
-Created by Muheto Niyonemera  
-Email: muheto.niyonemera@gmail.com 
-Website: https://www.buyrentrwanda.com
+📸 Screenshots
+<p align="center"> <img width="350" src="https://github.com/user-attachments/assets/94b465de-6be4-4300-a421-dd16002dc538" alt="Homepage Screenshot" /> <img width="350" src="https://github.com/user-attachments/assets/683c0e03-cc45-4907-8a6f-7fff66eab2a0" alt="Property Details Screenshot" /> </p>
+🌐 Live Demo
+
+https://www.buyrentrwanda.com
+
+📫 Contact
+
+Muheto Niyonemera
+✉️ muheto.niyonemera@gmail.com
