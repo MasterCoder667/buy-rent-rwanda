@@ -14,7 +14,7 @@ A modern, responsive real estate platform showcasing properties for rent and sal
 
 📞 WhatsApp Integration: Directly contact property agents.
 
-🏘️ Sample Listings: 12 example properties (6 for sale, 6 for rent).
+🏘️ Real-user Listings: 12 client properties (6 for sale, 6 for rent).
 
 🚀 Technologies Used
 
