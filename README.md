@@ -19,6 +19,7 @@ A modern, responsive real estate platform showcasing properties for rent and sal
 🚀 Technologies Used
 
 Frontend: HTML5, CSS3, JavaScript (Vanilla)
+Backend: Python (Django)
 
 Icons & UI: Font Awesome
 
